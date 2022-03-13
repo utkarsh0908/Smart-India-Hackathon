@@ -14,3 +14,103 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.bgImg{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  opacity: 0.75;
+  filter:blur(4px);
+}
+
+.main_page{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_box{
+  position: relative;
+  padding: 2rem 2rem 0 2rem;
+  border-radius: 10px;
+  width: 25%;
+  height: 50%;
+  margin: auto;
+  background-color: #e7e7e785;
+  display: flex;
+  flex-direction: column;
+}
+
+.primary_text{
+  /* border: 2px solid red; */
+  margin-bottom: 0.5rem;
+  flex: 1;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.secondary_text{
+  /* border: 2px solid red; */
+  flex: 1;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form{
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.id{
+  background-color: #ffffff00;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+
+.password{
+  background-color: #ffffff00;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-bottom: 3rem;
+  outline: none;
+}
+
+.register{
+  border-radius: 0.8rem !important;
+  padding: 1rem !important;
+  align-self: center;
+  width: 90%;
+  margin-bottom: 1rem;
+  font-size: 1.2rem !important;
+  background-color: #0040FF !important;
+}
+.register:hover{
+  background-color: #2600ff !important;
+}
+
+.agreement{
+  font-size: small;
+  margin-top: 0.5rem;
+  margin-left: 1.3rem;
+}
+
+.terms{
+  font-weight: bold;
+}
+
+
+
+
+
