@@ -15,6 +15,21 @@ a {
   box-sizing: border-box;
 }
 
+/* Navbar */
+.navbar{
+  background-color: #e7e7e7b9;
+}
+
+.nav-item{
+  height: 2.5rem;
+}
+.nav-item:hover{
+  border-bottom: 3px solid #0040FF;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+
 .bgImg{
   height: 100vh;
   width: 100vw;
@@ -38,7 +53,7 @@ a {
   width: 25%;
   height: 50%;
   margin: auto;
-  background-color: #e7e7e785;
+  background-color: #e7e7e7b9;
   display: flex;
   flex-direction: column;
 }
