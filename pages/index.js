@@ -17,7 +17,7 @@ export default function Home() {
           <form className='form'>
             <input placeholder='Hospital Id' className='id'/>
             <input placeholder='Password' className='password'/>
-            <button type="button" className="btn btn-primary register" >Register Account</button>
+            <button type="button" className="btn btn-primary loginButton" >Login</button>
             <div className='agreement'>By sign up you're agreeing to our <span className='terms'>Terms and Conditions</span></div>
           </form>
 
