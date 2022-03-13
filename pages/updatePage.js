@@ -3,6 +3,41 @@ import React from 'react'
 const updatePage = () => {
   return (
     <div>
+      <nav class="navbar navbar-light navbar-expand-sm fixed-top ">
+        <div class="container">
+        <a href="/" class="navbar-brand">
+          <div class ="span">Update Info </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto ">
+           
+            <li class="nav-item">
+                <a href="" class="nav-link active">
+                    About Us
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link active">
+                    Services
+                </a>
+            </li>
+           <li class="nav-item">
+                <a href="" class="nav-link active">
+                    Contact us 
+                </a>
+            </li>
+             <li class="nav-item">
+                <a href="" class="nav-link active ">
+                    logout
+                </a>
+            </li>
+        </ul>
+        </div>
+</div>
+</nav>
       <div className='main_pageUpdate'>
       <img src='/bgImg.jpg' className='bgImg'/>
 
