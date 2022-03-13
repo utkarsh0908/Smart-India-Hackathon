@@ -70,7 +70,7 @@ a {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
   margin-bottom: 0.5rem;
   outline: none;
 }
@@ -82,9 +82,9 @@ a {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
   margin-bottom: 2rem;
-  outline: none;
+  outline: none !important;
 }
 
 
@@ -118,6 +118,11 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.showButton{
+  background-color: rgba(255, 235, 205, 0);
+  border: none;
 }
 
 
